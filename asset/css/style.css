@@ -1,3 +1,6 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
 header {
     background: #2D25A0;
 }
@@ -6,10 +9,11 @@ nav {
     justify-content: space-between;
     max-width: 1060px;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
 .navbar {
     display: flex;
-    margin-top: 20px;
+    margin-top: 27px;
     
 }
 ul li {
@@ -25,4 +29,25 @@ ul li a {
     display: flex;
     background-color: #E02C6D;
     padding: 7px 0;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 974px;
+    margin: 0 auto;
+}
+.banner h1 {
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+}
+.banner img {
+    height: 450px;
+}
+.banner button {
+    padding: 10px 15px;
+    font-weight: 500;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
 }
